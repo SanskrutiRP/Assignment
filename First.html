@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Assignment</title>
+	</head>
+	<body>
+		Today is <script>document.write(Date())</script><br><br>
+		<Button onclick="window.print()">Print</Button><br><br>
+		<script>
+			var date=new Date();
+			document.write(date);
+			day=date.getDate();
+			month=date.getMonth();
+			yr=date.getYear();
+			document.write("<br>"+day+"/"+month+"/"+yr)
+		</script>
+	</body>
+</html>
