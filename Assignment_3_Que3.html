@@ -1,0 +1,58 @@
+<html>
+	<title>Asignment 3</title>
+	<body>
+		<script>
+			marks=+prompt("Enter marks")
+			
+			choice=prompt("Enter whether you want to grade students using Switch Case, Conditional Statement, Ternary Operators?")
+			switch(choice.toLowerCase())
+			{	
+				case 'switch case':		
+					switch(parseInt(marks/10)){
+						case 10:
+						case 9:
+						case 8:
+							console.log(`Marks are ${marks} and grade is A+`)
+							break
+						case 7:
+							console.log(`Marks are ${marks} and grade is A`)
+							break;
+						case 6:
+							console.log(`Marks are ${marks} and grade is B+`)
+							break
+						case 5:
+							console.log(`Marks are ${marks} and grade is B`)
+							break;
+						case 4:
+							console.log(`Marks are ${marks} and grade is C`)
+							break;
+						default:
+							console.log('Fail')
+							break
+					}
+					break;
+				case 'conditional statement':
+					if(marks>=80)
+						console.log(`Marks are ${marks} and grade is A+`)
+					else if(marks>=70)
+						console.log(`Marks are ${marks} and grade is A`)
+					else if(marks>=60)
+						console.log(`Marks are ${marks} and grade is B+`)
+					else if(marks>=50)	
+						console.log(`Marks are ${marks} and grade is B`)
+					else if(marks>=40)
+						console.log(`Marks are ${marks} and grade is C`)
+					else{
+						console.log('Fail')}
+					break
+				case 'ternary operators':		
+					grade=(marks>=80)?'A+':((marks>=70)?'A':((marks>=60)?'B+':(marks>=50)?'B':(marks>=40)?'C':'Fail'))
+					console.log(`Marks are ${marks} and grade is ${grade}`)
+					break;
+				default:
+					alert('Enter valid choice');
+					break;
+			}
+		</script>
+	</body>
+</html>

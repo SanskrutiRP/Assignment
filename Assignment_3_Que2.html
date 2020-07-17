@@ -1,0 +1,14 @@
+<html>
+	<title>Assignment No 3 Question 2</title>
+	<body>
+		Question 2<br>
+		Enter OS name and version seperated by space
+		<script>
+			os_ver=prompt('Enter OS and version seperated by space')
+			if(os_ver.indexOf(' ')==-1)
+				alert('Enter version separated by space')
+			else
+				console.log(`OS is ${os_ver.split(' ')[0]} and version is ${parseInt(os_ver.split(' ')[1])}`)
+		</script>
+	</body>
+</html>
