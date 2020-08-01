@@ -1,14 +1,14 @@
-div{
-    color:navy;
-    background-color: royalblue;
+body{
     font-family: cursive;
-    font-size: 40px;
-    font: outline;
-    font-weight: 100;
-    font-style: oblique;
-    align-self:auto;
-    align-items: center;
-    animation: alternate;
-    border: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+input{
     border-radius: 10px;
+    height: 30px;
+    background-color: wheat;
+    color: navy;
+    font-family: cursive;
 }
