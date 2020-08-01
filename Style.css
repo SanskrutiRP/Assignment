@@ -1,0 +1,14 @@
+div{
+    color:navy;
+    background-color: royalblue;
+    font-family: cursive;
+    font-size: 40px;
+    font: outline;
+    font-weight: 100;
+    font-style: oblique;
+    align-self:auto;
+    align-items: center;
+    animation: alternate;
+    border: 5px;
+    border-radius: 10px;
+}
